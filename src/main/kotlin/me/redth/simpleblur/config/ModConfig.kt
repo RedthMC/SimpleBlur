@@ -13,8 +13,4 @@ object ModConfig : Config(Mod(SimpleBlur.NAME, ModType.UTIL_QOL), "${SimpleBlur.
 
     @Switch(name = "Apply In Menus")
     var applyInMenus = true
-
-    init {
-        initialize()
-    }
 }

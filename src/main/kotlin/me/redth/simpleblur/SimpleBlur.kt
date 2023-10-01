@@ -16,7 +16,7 @@ object SimpleBlur {
 
     @Mod.EventHandler
     fun onInit(e: FMLInitializationEvent) {
-        ModConfig
+        ModConfig.initialize()
     }
 
     fun blur() {
